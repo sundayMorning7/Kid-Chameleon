@@ -1,0 +1,8 @@
+<!DOCTYPE SpriteDecomposer>
+<sprites image="clock.png" transparentColor="">
+ <animation title="default" delay="300">
+  <cut w="16" x="0" y="0" h="16" row="1" col="1"/>
+  <cut w="16" x="18" y="0" h="16" row="1" col="1"/>
+  <cut w="16" x="36" y="0" h="16" row="1" col="1"/>
+ </animation>
+</sprites>

@@ -1,0 +1,21 @@
+<!DOCTYPE SpriteDecomposer>
+<sprites image="ironLifes.png" transparentColor="">
+ <animation title="full" delay="150">
+  <cut w="40" x="0" y="0" h="8" row="1" col="1"/>
+ </animation>
+ <animation title="four" delay="150">
+  <cut w="40" x="0" y="8" h="8" row="1" col="1"/>
+ </animation>
+ <animation title="three" delay="150">
+  <cut w="40" x="0" y="16" h="8" row="1" col="1"/>
+ </animation>
+ <animation title="two" delay="150">
+  <cut w="40" x="0" y="24" h="8" row="1" col="1"/>
+ </animation>
+ <animation title="one" delay="150">
+  <cut w="40" x="0" y="32" h="8" row="1" col="1"/>
+ </animation>
+ <animation title="zero" delay="150">
+  <cut w="40" x="0" y="40" h="8" row="1" col="1"/>
+ </animation>
+</sprites>

@@ -1,0 +1,9 @@
+<!DOCTYPE SpriteDecomposer>
+<sprites image="files\rubber.png" transparentColor="">
+ <animation title="default" delay="150">
+  <cut w="16" x="5" y="6" h="16" row="1" col="1"/>
+ </animation>
+ <animation title="hit" delay="150">
+  <cut w="14" x="24" y="7" h="14" row="1" col="1"/>
+ </animation>
+</sprites>

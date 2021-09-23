@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{D3A54A6A-7EBA-48A1-BF85-7AC0B2DEEE31}</ProjectGuid>
+    <RootNamespace>Round1</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>D:\SFML-2.4.0\include;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\SFML-2.4.0\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IncludePath>D:\SFML-2.4.0\include;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\SFML-2.4.0\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Custom</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>sfml-graphics-d.lib;sfml-window-d.lib;sfml-system-d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Custom</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>sfml-graphics.lib;sfml-window.lib;sfml-system.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalOptions>Use /FORCE:MULTIPLE %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Ankh.cpp" />
+    <ClCompile Include="BlockFactory.cpp" />
+    <ClCompile Include="Clock.cpp" />
+    <ClCompile Include="Dragon.cpp" />
+    <ClCompile Include="Emerald.cpp" />
+    <ClCompile Include="EnemyFactory.cpp" />
+    <ClCompile Include="Entity.cpp" />
+    <ClCompile Include="Flag.cpp" />
+    <ClCompile Include="GameMenu.cpp" />
+    <ClCompile Include="Helmets.cpp" />
+    <ClCompile Include="InfoClass.cpp" />
+    <ClCompile Include="IronKnight.cpp" />
+    <ClCompile Include="KidChameleon.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="PrizeBlock.cpp" />
+    <ClCompile Include="PrizeFactory.cpp" />
+    <ClCompile Include="RockBlock.cpp" />
+    <ClCompile Include="RubberBlock.cpp" />
+    <ClCompile Include="source\TinyXML\tinystr.cpp" />
+    <ClCompile Include="source\TinyXML\tinyxml.cpp" />
+    <ClCompile Include="source\TinyXML\tinyxmlerror.cpp" />
+    <ClCompile Include="source\TinyXML\tinyxmlparser.cpp" />
+    <ClCompile Include="SteelBlock.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="source\AnimationManager.h" />
+    <ClInclude Include="source\Ankh.h" />
+    <ClInclude Include="source\BlockFactory.h" />
+    <ClInclude Include="source\Blocks.h" />
+    <ClInclude Include="source\Clock.h" />
+    <ClInclude Include="source\Cronometer.h" />
+    <ClInclude Include="source\Dragon.h" />
+    <ClInclude Include="source\Emerald.h" />
+    <ClInclude Include="source\Enemy.h" />
+    <ClInclude Include="source\EnemyFactory.h" />
+    <ClInclude Include="source\Entity.h" />
+    <ClInclude Include="source\Flag.h" />
+    <ClInclude Include="source\GameMenu.h" />
+    <ClInclude Include="source\Helmets.h" />
+    <ClInclude Include="source\InfoClass.h" />
+    <ClInclude Include="source\IronKnight.h" />
+    <ClInclude Include="source\KidChameleon.h" />
+    <ClInclude Include="source\Level.h" />
+    <ClInclude Include="source\Player.h" />
+    <ClInclude Include="source\PrizeBlock.h" />
+    <ClInclude Include="source\PrizeFactory.h" />
+    <ClInclude Include="source\Prizes.h" />
+    <ClInclude Include="source\RockBlock.h" />
+    <ClInclude Include="source\RubberBlock.h" />
+    <ClInclude Include="source\SteelBlock.h" />
+    <ClInclude Include="source\TinyXML\tinystr.h" />
+    <ClInclude Include="source\TinyXML\tinyxml.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="files\Map\Map.tmx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="files\Font\PressStart2P.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="files\PNG\ironLifesXML.xml" />
+    <Xml Include="files\PNG\kidLifesXML.xml" />
+    <Xml Include="files\XML\ankhXML.xml" />
+    <Xml Include="files\XML\clockXML.xml" />
+    <Xml Include="files\XML\destroyPrizeBlockXML.xml" />
+    <Xml Include="files\XML\destroyZebraXML.xml" />
+    <Xml Include="files\XML\dragonXML.xml" />
+    <Xml Include="files\XML\emeraldXML.xml" />
+    <Xml Include="files\XML\flagXML.xml" />
+    <Xml Include="files\XML\ironKnightXML.xml" />
+    <Xml Include="files\XML\kidChameleonXML.xml">
+      <SubType>Designer</SubType>
+    </Xml>
+    <Xml Include="files\XML\RockBlockReadyENDXML.xml" />
+    <Xml Include="files\XML\rockXML.xml" />
+    <Xml Include="files\XML\rubberBlockXML.xml" />
+    <Xml Include="files\XML\steelBlockXML.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="files\PNG\ankh.png" />
+    <Image Include="files\PNG\bridge.png" />
+    <Image Include="files\PNG\bushBehind.png" />
+    <Image Include="files\PNG\bushFront.png" />
+    <Image Include="files\PNG\CharactersSprites.png" />
+    <Image Include="files\PNG\clock.png" />
+    <Image Include="files\PNG\destroyPrizeBlock.png" />
+    <Image Include="files\PNG\dragonPNG.png" />
+    <Image Include="files\PNG\elka.png" />
+    <Image Include="files\PNG\emerald.png" />
+    <Image Include="files\PNG\flag.png" />
+    <Image Include="files\PNG\Grey.png" />
+    <Image Include="files\PNG\ground.png" />
+    <Image Include="files\PNG\ironLifes.png" />
+    <Image Include="files\PNG\kidLifes.png" />
+    <Image Include="files\PNG\Map.png" />
+    <Image Include="files\PNG\Menu1.png" />
+    <Image Include="files\PNG\Menu2.png" />
+    <Image Include="files\PNG\mount.png" />
+    <Image Include="files\PNG\rock.png" />
+    <Image Include="files\PNG\RockBlockReadyEND.png" />
+    <Image Include="files\PNG\rubber.png" />
+    <Image Include="files\PNG\sky.png" />
+    <Image Include="files\PNG\steel.png" />
+    <Image Include="files\PNG\tree1.png" />
+    <Image Include="files\PNG\tree2.png" />
+    <Image Include="files\PNG\tree3.png" />
+    <Image Include="files\PNG\tree4.png" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

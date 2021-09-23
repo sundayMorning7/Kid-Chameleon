@@ -1,0 +1,11 @@
+<!DOCTYPE SpriteDecomposer>
+<sprites image="files\flag.png" transparentColor="">
+ <animation title="default" delay="80">
+  <cut w="40" x="7" y="4" h="48" row="1" col="1"/>
+  <cut w="38" x="53" y="4" h="48" row="1" col="1"/>
+  <cut w="40" x="97" y="4" h="48" row="1" col="1"/>
+  <cut w="41" x="7" y="54" h="48" row="1" col="1"/>
+  <cut w="42" x="54" y="54" h="48" row="1" col="1"/>
+  <cut w="42" x="102" y="54" h="48" row="1" col="1"/>
+ </animation>
+</sprites>

@@ -1,0 +1,9 @@
+<!DOCTYPE SpriteDecomposer>
+<sprites image="brilliant.png" transparentColor="">
+ <animation title="default" delay="100">
+  <cut w="14" x="4" y="6" h="14" row="1" col="1"/>
+  <cut w="14" x="4" y="24" h="14" row="1" col="1"/>
+  <cut w="14" x="4" y="42" h="14" row="1" col="1"/>
+  <cut w="14" x="4" y="60" h="14" row="1" col="1"/>
+ </animation>
+</sprites>

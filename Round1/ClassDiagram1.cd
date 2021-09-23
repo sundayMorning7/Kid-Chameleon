@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Ankh" Collapsed="true">
+    <Position X="3.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAkAAIAAAIAAAAAAgIIAAAAAAAAgAAAAAAAAIAAEAAA=</HashCode>
+      <FileName>source\Ankh.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BlockFactory" Collapsed="true">
+    <Position X="15.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIBGAAAAAAAAAAAAAAJAAAIAAABAIEAQAAAAAAA=</HashCode>
+      <FileName>source\BlockFactory.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Blocks" Collapsed="true">
+    <Position X="18.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIEAAAAAAAAAgAAAAAgAAAAAAAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>source\Blocks.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dragon" Collapsed="true">
+    <Position X="1.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAQAACAAAIAAAAAAhAIABAAAAAIAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>source\Dragon.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Emerald" Collapsed="true">
+    <Position X="11.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAkAAIAAAIAAAAAAiIIAAAAAAAAgAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>source\Emerald.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Enemy" Collapsed="true">
+    <Position X="1.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAIAAgAAAAAAAgAAAAAgAAAAAAAAAQCAAAAAAAAAAAA=</HashCode>
+      <FileName>source\Enemy.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EnemyFactory" Collapsed="true">
+    <Position X="17.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAEIAAAAAAAAAAAAAAAAQQAAAAAEAAAAAA=</HashCode>
+      <FileName>source\EnemyFactory.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entity" Collapsed="true">
+    <Position X="12.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ECUACAEIAiACIAAIAAYOAAYQAAAAAAAgQQh0QGAEBAA=</HashCode>
+      <FileName>source\Entity.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Flag" Collapsed="true">
+    <Position X="23.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>source\Flag.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameMenu" Collapsed="true">
+    <Position X="17.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAEAAAAAAAAAAAAAAAsAEAABAAAAAAAAQQAAAAAUAAA=</HashCode>
+      <FileName>source\GameMenu.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Helmets" Collapsed="true">
+    <Position X="9.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>yEgAAABAAYEUIyAA1EakIAQAAwKgUJKQEGhAgAIkQA0=</HashCode>
+      <FileName>source\Helmets.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InfoClass" Collapsed="true">
+    <Position X="19" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IApAEAAAAAAAAMAAAIIICAQIAAQAAgANCQIAAAAsAIA=</HashCode>
+      <FileName>source\InfoClass.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IronKnight" Collapsed="true">
+    <Position X="8.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQgAAAAAAIAAgAAEwAIAACAQAAAAAJAAAAAAAAAEAgA=</HashCode>
+      <FileName>source\IronKnight.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KidChameleon" Collapsed="true">
+    <Position X="10.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gwgAAAAAAIAAgAAAwAIgACAQAAAAAJAAAAAAAACEAgA=</HashCode>
+      <FileName>source\KidChameleon.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Player" Collapsed="true">
+    <Position X="15.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAUBEgAYAiQAACAgRCYmAAIUAAAAAIIgBCAUSWIEQFQ=</HashCode>
+      <FileName>source\Player.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PrizeBlock" Collapsed="true">
+    <Position X="21.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAARACAAAAAAAIAEACAAwAhAAAAAAAAAEAEAAA=</HashCode>
+      <FileName>source\PrizeBlock.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PrizeFactory" Collapsed="true">
+    <Position X="19" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAQIIEAAAAABACAAIAEAB4AkAAACAAAAACA=</HashCode>
+      <FileName>source\PrizeFactory.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Prizes" Collapsed="true">
+    <Position X="8.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAhAAAAgAAAEEgAAAAAAAAAQCAAAAAAAAAAAA=</HashCode>
+      <FileName>source\Prizes.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RockBlock" Collapsed="true">
+    <Position X="15" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAgAIAAAAAAAAgAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>source\RockBlock.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RubberBlock" Collapsed="true">
+    <Position X="17.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAIAAAAAAAAgAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>source\RubberBlock.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SteelBlock" Collapsed="true">
+    <Position X="19.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAAAAgQAAAAAAAAAAEAAA=</HashCode>
+      <FileName>source\SteelBlock.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyClock::Clock" Collapsed="true">
+    <Position X="6" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAkAAIAAAIAAAAAAgIIAAAAAAAAgAAAAAAAAAAAEAgA=</HashCode>
+      <FileName>source\Clock.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

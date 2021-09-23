@@ -1,0 +1,36 @@
+<!DOCTYPE SpriteDecomposer>
+<sprites image="dragonPNG.png" transparentColor="">
+ <animation title="dead" delay="250">
+  <cut w="32" x="41" y="9" h="23" row="1" col="1"/>
+  <cut w="32" x="81" y="9" h="23" row="1" col="1"/>
+ </animation>
+ <animation title="walk" delay="250">
+  <cut w="31" x="1" y="88" h="38" row="1" col="1"/>
+  <cut w="31" x="40" y="88" h="39" row="1" col="1"/>
+  <cut w="32" x="79" y="88" h="40" row="1" col="1"/>
+   <cut w="32" x="238" y="88" h="40" row="1" col="1"/>
+  <cut w="32" x="119" y="88" h="39" row="1" col="1"/>
+  <cut w="32" x="159" y="88" h="40" row="1" col="1"/>
+  <cut w="31" x="199" y="88" h="39" row="1" col="1"/>
+ </animation>
+ <animation title="attack" delay="90">
+  <cut w="55" x="215" y="0" h="39" row="1" col="1"/>
+  <cut w="53" x="157" y="0" h="39" row="1" col="1"/>
+  <cut w="50" x="220" y="41" h="39" row="1" col="1"/>
+  <cut w="55" x="215" y="0" h="39" row="1" col="1"/>
+  <cut w="53" x="157" y="0" h="39" row="1" col="1"/>
+  <cut w="50" x="220" y="41" h="39" row="1" col="1"/>
+ <cut w="55" x="215" y="0" h="39" row="1" col="1"/>
+  <cut w="53" x="157" y="0" h="39" row="1" col="1"/>
+  <cut w="50" x="220" y="41" h="39" row="1" col="1"/>
+  <cut w="55" x="215" y="0" h="39" row="1" col="1"/>
+  <cut w="53" x="157" y="0" h="39" row="1" col="1"/>
+  <cut w="50" x="220" y="41" h="39" row="1" col="1"/>
+ <cut w="55" x="215" y="0" h="39" row="1" col="1"/>
+  <cut w="53" x="157" y="0" h="39" row="1" col="1"/>
+  <cut w="50" x="220" y="41" h="39" row="1" col="1"/>
+<cut w="55" x="215" y="0" h="39" row="1" col="1"/>
+  <cut w="53" x="157" y="0" h="39" row="1" col="1"/>
+  <cut w="50" x="220" y="41" h="39" row="1" col="1"/>
+ </animation>
+</sprites>

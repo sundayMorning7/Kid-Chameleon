@@ -1,0 +1,7 @@
+<!DOCTYPE SpriteDecomposer>
+<sprites image="files\it.png" transparentColor="">
+ <animation title="default" delay="350">
+  <cut w="10" x="5" y="4" h="16" row="1" col="1"/>
+  <cut w="10" x="23" y="4" h="16" row="1" col="1"/>
+ </animation>
+</sprites>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="200" height="28" tilewidth="16" tileheight="16" nextobjectid="234">
+ <tileset firstgid="1" name="endMap" tilewidth="16" tileheight="16" tilecount="5600" columns="200">
+  <image source="files/PNG/Map.png" width="3200" height="448"/>
+ </tileset>
+ <objectgroup name="objects">
+  <object id="1" name="solid" x="2580" y="384" width="16" height="16"/>
+  <object id="2" name="upHill" x="977.808" y="158.765" width="47.3561" height="49.3334"/>
+  <object id="3" name="zebraItem" x="2624" y="112" width="16" height="16"/>
+  <object id="4" name="solid" x="1898.59" y="305.122" width="59.0455" height="10.4242"/>
+  <object id="5" name="jumpItem" x="2496" y="288" width="16" height="16"/>
+  <object id="6" name="pItem" type="ironKnight" x="1200" y="48" width="16" height="16"/>
+  <object id="7" name="solid" x="2821.18" y="274.618" width="34.3523" height="5.89769"/>
+  <object id="8" name="pItem" type="ironKnight" x="2512" y="320" width="16" height="16"/>
+  <object id="9" name="pItem" type="emerald" x="2144" y="288" width="16" height="16"/>
+  <object id="10" name="pItem" type="emerald" x="2576" y="16" width="16" height="16"/>
+  <object id="11" name="zebraItem" x="2128" y="288" width="16" height="16"/>
+  <object id="12" name="solid" x="5.49835" y="-16.4847" width="3215.67" height="17.48"/>
+  <object id="13" name="pItem" type="ankh" x="2592" y="16" width="16" height="16"/>
+  <object id="14" name="upHill" x="751.862" y="172.734" width="64.871" height="67.1137"/>
+  <object id="15" name="solid" x="2380" y="320" width="15.6364" height="15.0909"/>
+  <object id="16" name="solid" x="2629.51" y="352.31" width="94.3864" height="10.8409"/>
+  <object id="18" name="flag" x="3136" y="144" width="16" height="16"/>
+  <object id="19" name="solidItem" x="928" y="112" width="16" height="16"/>
+  <object id="20" name="pItem" type="emerald" x="160" y="192" width="16" height="16"/>
+  <object id="21" name="zebraItem" x="2704" y="176" width="16" height="16"/>
+  <object id="22" name="solid" x="2260" y="352" width="19.9697" height="15.0909"/>
+  <object id="23" name="player" x="33.33" y="240" width="16" height="16"/>
+  <object id="24" name="solid" x="2727.44" y="336.107" width="38.909" height="10.8978"/>
+  <object id="25" name="jumpItem" x="2096" y="288" width="16" height="16"/>
+  <object id="26" name="pItem" type="emerald" x="2128" y="112" width="16" height="16"/>
+  <object id="27" name="zebraItem" x="2736" y="176" width="16" height="16"/>
+  <object id="28" name="downHill" x="1807.17" y="191.099" width="109.803" height="112.901"/>
+  <object id="29" name="solid" x="823.454" y="175.818" width="1.28033" height="15.9924"/>
+  <object id="30" name="solid" x="2612" y="352.151" width="16" height="16"/>
+  <object id="31" name="solid" x="2244" y="368" width="22.3031" height="15.0909"/>
+  <object id="32" name="solid" x="0.331683" y="272.598" width="720.583" height="30"/>
+  <object id="33" name="solid" x="2920.06" y="193.19" width="281.75" height="18.6932"/>
+  <object id="34" name="zebraItem" x="272" y="192" width="16" height="16"/>
+  <object id="35" name="solid" x="729.047" y="240.621" width="54.0796" height="10.2273"/>
+  <object id="36" name="pItem" type="emerald" x="2608" y="16" width="16" height="16"/>
+  <object id="37" name="solid" x="2020.36" y="353.091" width="39.4546" height="15.6364"/>
+  <object id="38" name="pItem" type="emerald" x="2160" y="112" width="16" height="16"/>
+  <object id="39" name="solidItem" x="2928" y="176" width="16" height="16"/>
+  <object id="40" name="solid" x="2080.84" y="401.818" width="157" height="16"/>
+  <object id="41" name="zebraItem" x="2576" y="112" width="16" height="16"/>
+  <object id="42" name="solid" x="3189.17" y="3.84863" width="20" height="209"/>
+  <object id="43" name="solidItem" x="448" y="192" width="16" height="16"/>
+  <object id="44" name="jumpItem" x="2112" y="288" width="16" height="16"/>
+  <object id="45" name="zebraItem" x="2160" y="192" width="16" height="16"/>
+  <object id="46" name="solid" x="1692.47" y="175.47" width="17.5682" height="12.9318"/>
+  <object id="47" name="downHill" x="831.043" y="172.73" width="33.0454" height="34.5455"/>
+  <object id="48" name="upHill" x="2754.83" y="270.175" width="60.3296" height="62.9432"/>
+  <object id="49" name="pItem" type="emerald" x="2480" y="320" width="16" height="16"/>
+  <object id="50" name="zebraItem" x="2752" y="176" width="16" height="16"/>
+  <object id="53" name="downHill" x="1965.14" y="303.112" width="33.8409" height="32.6515"/>
+  <object id="54" name="solid" x="2304.53" y="320.515" width="79.4545" height="9.63636"/>
+  <object id="55" name="upHill" x="693.574" y="238.828" width="27.8484" height="29.2538"/>
+  <object id="56" name="zebraItem" x="240" y="192" width="16" height="16"/>
+  <object id="57" name="jumpItem" x="2176" y="288" width="16" height="16"/>
+  <object id="58" name="zebraItem" x="112" y="192" width="16" height="16"/>
+  <object id="59" name="solid" x="1032.95" y="160.765" width="43.6363" height="12.5833"/>
+  <object id="60" name="pItem" type="emerald" x="608" y="192" width="16" height="16"/>
+  <object id="61" name="zebraItem" x="2688" y="176" width="16" height="16"/>
+  <object id="62" name="solid" x="2404" y="352" width="23.3031" height="15.0909"/>
+  <object id="63" name="solid" x="2392" y="336" width="20.3031" height="15.0909"/>
+  <object id="64" name="zebraItem" x="208" y="192" width="16" height="16"/>
+  <object id="65" name="zebraItem" x="2720" y="176" width="16" height="16"/>
+  <object id="66" name="solid" x="1081.98" y="144.531" width="194.977" height="12.5985"/>
+  <object id="67" name="pItem" type="emerald" x="464" y="96" width="16" height="16"/>
+  <object id="68" name="solid" x="2292" y="320.666" width="12.1364" height="13.7576"/>
+  <object id="69" name="pItem" type="clock" x="192" y="192" width="16" height="16"/>
+  <object id="70" name="zebraItem" x="2128" y="192" width="16" height="16"/>
+  <object id="71" name="solidItem" x="2560" y="304" width="16" height="16"/>
+  <object id="72" name="pItem" type="emerald" x="256" y="192" width="16" height="16"/>
+  <object id="73" name="zebraItem" x="144" y="192" width="16" height="16"/>
+  <object id="74" name="jumpItem" x="2192" y="288" width="16" height="16"/>
+  <object id="75" name="solid" x="1702.72" y="194.39" width="98.958" height="7.375"/>
+  <object id="76" name="upHill" x="1060.67" y="141.933" width="13.8334" height="14.3939"/>
+  <object id="77" name="upHill" x="2832.28" y="191.242" width="80.6136" height="80.8182"/>
+  <object id="78" name="pItem" type="ironKnight" x="720" y="160" width="16" height="16"/>
+  <object id="79" name="solid" x="-27.5017" y="-14.9847" width="24.5" height="304"/>
+  <object id="80" name="solid" x="2054" y="368" width="21" height="16"/>
+  <object id="81" name="jumpItem" x="2480" y="288" width="16" height="16"/>
+  <object id="82" name="solid" x="2444" y="384" width="16" height="16"/>
+  <object id="84" name="solid" x="1569.65" y="160.515" width="122" height="12.9091"/>
+  <object id="85" name="pItem" type="emerald" x="912" y="16" width="16" height="16"/>
+  <object id="86" name="pItem" type="clock" x="2144" y="112" width="16" height="16"/>
+  <object id="87" name="zebraItem" x="2592" y="112" width="16" height="16"/>
+  <object id="88" name="pItem" type="emerald" x="224" y="192" width="16" height="16"/>
+  <object id="89" name="pItem" type="emerald" x="2496" y="320" width="16" height="16"/>
+  <object id="90" name="solid" x="1974.18" y="337.932" width="52.4319" height="13.0682"/>
+  <object id="91" name="pItem" type="emerald" x="128" y="192" width="16" height="16"/>
+  <object id="92" name="solid" x="2276" y="336" width="20.9697" height="15.0909"/>
+  <object id="93" name="solid" x="2422" y="368" width="21.6364" height="15.0909"/>
+  <object id="95" name="pItem" type="emerald" x="2144" y="192" width="16" height="16"/>
+  <object id="96" name="zebraItem" x="2608" y="112" width="16" height="16"/>
+  <object id="97" name="upHill" x="2707.14" y="332.742" width="13.75" height="16.6022"/>
+  <object id="98" name="zebraItem" x="2160" y="288" width="16" height="16"/>
+  <object id="99" name="pItem" type="emerald" x="448" y="96" width="16" height="16"/>
+  <object id="100" name="zebraItem" x="176" y="192" width="16" height="16"/>
+  <object id="101" name="solidItem" x="464" y="192" width="16" height="16"/>
+  <object id="102" name="zebraItem" x="2560" y="112" width="16" height="16"/>
+  <object id="103" name="solid" x="2596" y="368" width="16" height="16"/>
+  <object id="104" name="solid" x="856.37" y="209.666" width="132.833" height="5.27273"/>
+  <object id="139" name="jumpItem" x="1280" y="256" width="16" height="16"/>
+  <object id="159" name="jumpItem" x="1552" y="160" width="16" height="16"/>
+  <object id="160" name="jumpItem" x="1280" y="160" width="16" height="16"/>
+  <object id="161" name="jumpItem" x="1552" y="256" width="16" height="16"/>
+  <object id="162" name="jumpItem" x="1280" y="144" width="16" height="16"/>
+  <object id="171" name="jumpItem" x="1280" y="176" width="16" height="16"/>
+  <object id="172" name="jumpItem" x="1280" y="192" width="16" height="16"/>
+  <object id="173" name="jumpItem" x="1280" y="208" width="16" height="16"/>
+  <object id="174" name="jumpItem" x="1280" y="224" width="16" height="16"/>
+  <object id="176" name="jumpItem" x="1280" y="240" width="16" height="16"/>
+  <object id="178" name="jumpItem" x="1536" y="256" width="16" height="16"/>
+  <object id="179" name="jumpItem" x="1552" y="176" width="16" height="16"/>
+  <object id="180" name="jumpItem" x="1552" y="192" width="16" height="16"/>
+  <object id="182" name="jumpItem" x="1552" y="208" width="16" height="16"/>
+  <object id="183" name="jumpItem" x="1552" y="224" width="16" height="16"/>
+  <object id="184" name="jumpItem" x="1552" y="240" width="16" height="16"/>
+  <object id="187" name="jumpItem" x="1504" y="256" width="16" height="16"/>
+  <object id="188" name="jumpItem" x="1520" y="256" width="16" height="16"/>
+  <object id="189" name="jumpItem" x="1488" y="256" width="16" height="16"/>
+  <object id="190" name="jumpItem" x="1472" y="256" width="16" height="16"/>
+  <object id="191" name="jumpItem" x="1456" y="256" width="16" height="16"/>
+  <object id="192" name="jumpItem" x="1440" y="256" width="16" height="16"/>
+  <object id="193" name="jumpItem" x="1424" y="256" width="16" height="16"/>
+  <object id="194" name="jumpItem" x="1392" y="256" width="16" height="16"/>
+  <object id="195" name="jumpItem" x="1360" y="256" width="16" height="16"/>
+  <object id="196" name="jumpItem" x="1376" y="256" width="16" height="16"/>
+  <object id="197" name="jumpItem" x="1408" y="256" width="16" height="16"/>
+  <object id="198" name="jumpItem" x="1344" y="256" width="16" height="16"/>
+  <object id="199" name="jumpItem" x="1312" y="256" width="16" height="16"/>
+  <object id="200" name="jumpItem" x="1296" y="256" width="16" height="16"/>
+  <object id="201" name="jumpItem" x="1328" y="256" width="16" height="16"/>
+  <object id="202" name="solid" x="1264" y="157.94" width="14.6667" height="131.06"/>
+  <object id="203" name="solid" x="1281.33" y="273.667" width="285.333" height="16"/>
+  <object id="205" name="solid" x="1569.67" y="175.333" width="16" height="114.333"/>
+  <object id="209" name="solidItem" x="912" y="112" width="16" height="16"/>
+  <object id="210" name="solidItem" x="896" y="112" width="16" height="16"/>
+  <object id="211" name="solidItem" x="2560" y="320" width="16" height="16"/>
+  <object id="212" name="solidItem" x="2560" y="336" width="16" height="16"/>
+  <object id="213" name="solidItem" x="2560" y="352" width="16" height="16"/>
+  <object id="214" name="solidItem" x="2560" y="352" width="16" height="16"/>
+  <object id="215" name="solid" x="2460.76" y="401.455" width="125.485" height="11.0909"/>
+  <object id="216" name="solidItem" x="2560" y="368" width="16" height="16"/>
+  <object id="217" name="solidItem" x="2560" y="384" width="16" height="16"/>
+  <object id="218" name="solid" x="2228" y="384" width="22.3031" height="15.0909"/>
+  <object id="219" name="solid" x="2070" y="384" width="22.3031" height="15.0909"/>
+  <object id="221" name="dragon" x="240" y="234" width="16" height="16"/>
+  <object id="229" name="dragon" x="1199" y="106" width="16" height="16"/>
+  <object id="230" name="dragon" x="2319.67" y="282" width="16" height="16"/>
+  <object id="231" name="dragon" x="3088" y="155" width="16" height="16"/>
+ </objectgroup>
+</map>

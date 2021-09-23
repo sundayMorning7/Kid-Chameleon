@@ -1,0 +1,12 @@
+<!DOCTYPE SpriteDecomposer>
+<sprites image="kidLifes.png" transparentColor="">
+ <animation title="full" delay="150">
+  <cut w="16" x="0" y="0" h="8" row="1" col="1"/>
+ </animation>
+ <animation title="one" delay="150">
+  <cut w="16" x="0" y="8" h="8" row="1" col="1"/>
+ </animation>
+ <animation title="zero" delay="150">
+  <cut w="16" x="0" y="16" h="8" row="1" col="1"/>
+ </animation>
+</sprites>

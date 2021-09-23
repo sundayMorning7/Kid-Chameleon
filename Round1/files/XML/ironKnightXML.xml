@@ -1,0 +1,169 @@
+<!DOCTYPE SpriteDecomposer>
+<sprites image="CharactersSprites.png" transparentColor="">
+ <animation title="stay" delay="150">
+  <cut w="30" x="0" y="0" h="38" row="1" col="1"/>
+ </animation>
+ <animation title="walk" delay="150">
+  <cut w="27" x="2" y="42" h="37" row="1" col="1"/>
+  <cut w="28" x="32" y="41" h="38" row="1" col="1"/>
+  <cut w="28" x="63" y="42" h="37" row="1" col="1"/>
+  <cut w="29" x="94" y="43" h="36" row="1" col="1"/>
+  <cut w="28" x="125" y="42" h="37" row="1" col="1"/>
+  <cut w="29" x="155" y="42" h="37" row="1" col="1"/>
+ </animation>
+ <animation title="lie" delay="150">
+  <cut w="38" x="39" y="264" h="16" row="1" col="1"/>
+ </animation>
+ <animation title="crawl" delay="150">
+  <cut w="36" x="2" y="264" h="16" row="1" col="1"/>
+  <cut w="37" x="79" y="264" h="16" row="1" col="1"/>
+ </animation>
+ <animation title="jump" delay="150">
+  <cut w="31" x="31" y="1" h="36" row="1" col="1"/>
+ </animation>
+ <animation title="fall" delay="150">
+  <cut w="26" x="66" y="0" h="40" row="1" col="1"/>
+ </animation>
+ <animation title="climb" delay="150">
+  <cut w="28" x="0" y="80" h="39" row="1" col="1"/>
+  <cut w="28" x="30" y="80" h="39" row="1" col="1"/>
+  <cut w="28" x="61" y="80" h="37" row="1" col="1"/>
+ </animation>
+ <animation title="upHill" delay="150">
+  <cut w="30" x="0" y="184" h="34" row="1" col="1"/>
+  <cut w="30" x="32" y="184" h="37" row="1" col="1"/>
+  <cut w="30" x="64" y="184" h="38" row="1" col="1"/>
+  <cut w="31" x="96" y="184" h="37" row="1" col="1"/>
+  <cut w="30" x="128" y="184" h="35" row="1" col="1"/>
+  <cut w="30" x="160" y="184" h="37" row="1" col="1"/>
+ </animation>
+ <animation title="downHill" delay="150">
+  <cut w="28" x="0" y="224" h="37" row="1" col="1"/>
+  <cut w="26" x="31" y="223" h="40" row="1" col="1"/>
+  <cut w="27" x="59" y="224" h="38" row="1" col="1"/>
+  <cut w="27" x="88" y="225" h="36" row="1" col="1"/>
+  <cut w="27" x="117" y="224" h="39" row="1" col="1"/>
+  <cut w="27" x="146" y="224" h="36" row="1" col="1"/>
+ </animation>
+ <animation title="hit" delay="150">
+  <cut w="22" x="149" y="0" h="21" row="1" col="1"/>
+ </animation>
+ <animation title="mask" delay="150">
+  <cut w="22" x="126" y="0" h="21" row="1" col="1"/>
+ </animation>
+ <animation title="transformation" delay="80">
+  <cut w="35" x="6" y="123" h="50" row="1" col="1"/>
+  <cut w="38" x="51" y="123" h="54" row="1" col="1"/>
+   <cut w="35" x="6" y="123" h="50" row="1" col="1"/>
+   <cut w="38" x="51" y="123" h="54" row="1" col="1"/>
+   <cut w="47" x="96" y="120" h="63" row="1" col="1"/>
+   <cut w="38" x="51" y="123" h="54" row="1" col="1"/>
+   <cut w="47" x="96" y="120" h="63" row="1" col="1"/>
+   <cut w="38" x="147" y="123" h="54" row="1" col="1"/>
+   <cut w="47" x="96" y="120" h="63" row="1" col="1"/>
+   <cut w="38" x="147" y="123" h="54" row="1" col="1"/>
+   <cut w="47" x="96" y="120" h="63" row="1" col="1"/>
+  <cut w="30" x="196" y="129" h="38" row="1" col="1"/>
+ </animation>
+<animation title="dead" delay="80">
+  <cut w="38" x="147" y="123" h="54" row="1" col="1"/>
+  <cut w="30" x="196" y="129" h="38" row="1" col="1"/>
+  <cut w="38" x="147" y="123" h="54" row="1" col="1"/>
+  <cut w="30" x="196" y="129" h="38" row="1" col="1"/>
+  <cut w="38" x="147" y="123" h="54" row="1" col="1"/>
+  <cut w="47" x="96" y="120" h="63" row="1" col="1"/>
+  <cut w="38" x="147" y="123" h="54" row="1" col="1"/>
+  <cut w="47" x="96" y="120" h="63" row="1" col="1"/>
+  <cut w="38" x="147" y="123" h="54" row="1" col="1"/>
+  <cut w="47" x="96" y="120" h="63" row="1" col="1"/>
+  <cut w="38" x="51" y="123" h="54" row="1" col="1"/>
+  <cut w="47" x="96" y="120" h="63" row="1" col="1"/>
+  <cut w="38" x="51" y="123" h="54" row="1" col="1"/>
+  <cut w="35" x="6" y="123" h="50" row="1" col="1"/>
+  <cut w="38" x="51" y="123" h="54" row="1" col="1"/>
+  <cut w="35" x="6" y="123" h="50" row="1" col="1"/>
+ </animation>
+ <animation title="stayHit" delay="150">
+  <cut w="30" x="260" y="0" h="38" row="1" col="1"/>
+ </animation>
+ <animation title="walkHit" delay="150">
+  <cut w="27" x="262" y="42" h="37" row="1" col="1"/>
+  <cut w="28" x="292" y="41" h="38" row="1" col="1"/>
+  <cut w="28" x="323" y="42" h="37" row="1" col="1"/>
+  <cut w="29" x="354" y="43" h="36" row="1" col="1"/>
+  <cut w="28" x="385" y="42" h="37" row="1" col="1"/>
+  <cut w="29" x="415" y="42" h="37" row="1" col="1"/>
+ </animation>
+ <animation title="lieHit" delay="150">
+  <cut w="38" x="299" y="264" h="16" row="1" col="1"/>
+ </animation>
+ <animation title="crawlHit" delay="150">
+  <cut w="36" x="262" y="264" h="16" row="1" col="1"/>
+  <cut w="37" x="339" y="264" h="16" row="1" col="1"/>
+ </animation>
+ <animation title="jumpHit" delay="150">
+  <cut w="31" x="291" y="1" h="36" row="1" col="1"/>
+ </animation>
+ <animation title="fallHit" delay="150">
+  <cut w="26" x="326" y="0" h="40" row="1" col="1"/>
+ </animation>
+ <animation title="climbHit" delay="150">
+  <cut w="28" x="260" y="80" h="39" row="1" col="1"/>
+  <cut w="28" x="290" y="80" h="39" row="1" col="1"/>
+  <cut w="28" x="321" y="80" h="37" row="1" col="1"/>
+ </animation>
+ <animation title="upHillHit" delay="150">
+  <cut w="30" x="260" y="184" h="34" row="1" col="1"/>
+  <cut w="30" x="292" y="184" h="37" row="1" col="1"/>
+  <cut w="30" x="324" y="184" h="38" row="1" col="1"/>
+  <cut w="31" x="356" y="184" h="37" row="1" col="1"/>
+  <cut w="30" x="388" y="184" h="35" row="1" col="1"/>
+  <cut w="30" x="420" y="184" h="37" row="1" col="1"/>
+ </animation>
+ <animation title="downHillHit" delay="150">
+  <cut w="28" x="260" y="224" h="37" row="1" col="1"/>
+  <cut w="26" x="291" y="223" h="40" row="1" col="1"/>
+  <cut w="27" x="319" y="224" h="38" row="1" col="1"/>
+  <cut w="27" x="348" y="225" h="36" row="1" col="1"/>
+  <cut w="27" x="377" y="224" h="39" row="1" col="1"/>
+  <cut w="27" x="406" y="224" h="36" row="1" col="1"/>
+ </animation>
+ <animation title="hitHit" delay="150">
+  <cut w="22" x="409" y="0" h="21" row="1" col="1"/>
+ </animation>
+ <animation title="maskHit" delay="150">
+  <cut w="22" x="386" y="0" h="21" row="1" col="1"/>
+ </animation>
+ <animation title="transformationHit" delay="80">
+  <cut w="35" x="266" y="123" h="50" row="1" col="1"/>
+  <cut w="38" x="311" y="123" h="54" row="1" col="1"/>
+   <cut w="35" x="266" y="123" h="50" row="1" col="1"/>
+   <cut w="38" x="311" y="123" h="54" row="1" col="1"/>
+   <cut w="47" x="356" y="120" h="63" row="1" col="1"/>
+   <cut w="38" x="311" y="123" h="54" row="1" col="1"/>
+   <cut w="47" x="356" y="120" h="63" row="1" col="1"/>
+   <cut w="38" x="407" y="123" h="54" row="1" col="1"/>
+   <cut w="47" x="356" y="120" h="63" row="1" col="1"/>
+   <cut w="38" x="407" y="123" h="54" row="1" col="1"/>
+   <cut w="47" x="356" y="120" h="63" row="1" col="1"/>
+  <cut w="30" x="456" y="129" h="38" row="1" col="1"/>
+ </animation>
+<animation title="deadHit" delay="80">
+  <cut w="38" x="407" y="123" h="54" row="1" col="1"/>
+  <cut w="30" x="456" y="129" h="38" row="1" col="1"/>
+  <cut w="38" x="407" y="123" h="54" row="1" col="1"/>
+  <cut w="30" x="456" y="129" h="38" row="1" col="1"/>
+  <cut w="38" x="407" y="123" h="54" row="1" col="1"/>
+  <cut w="47" x="356" y="120" h="63" row="1" col="1"/>
+  <cut w="38" x="407" y="123" h="54" row="1" col="1"/>
+  <cut w="47" x="356" y="120" h="63" row="1" col="1"/>
+  <cut w="38" x="407" y="123" h="54" row="1" col="1"/>
+  <cut w="47" x="356" y="120" h="63" row="1" col="1"/>
+  <cut w="38" x="311" y="123" h="54" row="1" col="1"/>
+  <cut w="47" x="356" y="120" h="63" row="1" col="1"/>
+  <cut w="38" x="311" y="123" h="54" row="1" col="1"/>
+  <cut w="35" x="266" y="123" h="50" row="1" col="1"/>
+  <cut w="38" x="311" y="123" h="54" row="1" col="1"/>
+  <cut w="35" x="266" y="123" h="50" row="1" col="1"/>
+ </animation>
+</sprites>

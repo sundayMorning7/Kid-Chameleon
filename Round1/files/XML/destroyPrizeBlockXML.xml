@@ -1,0 +1,73 @@
+<!DOCTYPE SpriteDecomposer>
+<sprites image="destroyPrizeBlock.png" transparentColor="">
+ <animation title="default" delay="10">
+  <cut w="25" x="0" y="0" h="39" row="1" col="1"/>
+ </animation>
+ <animation title="hit" delay="20">
+  <cut w="25" x="0" y="0" h="39" row="1" col="1"/>
+  <cut w="25" x="25" y="0" h="39" row="1" col="1"/>
+  <cut w="25" x="50" y="0" h="39" row="1" col="1"/>
+  <cut w="25" x="75" y="0" h="39" row="1" col="1"/>
+  <cut w="25" x="100" y="0" h="39" row="1" col="1"/>
+  <cut w="25" x="0" y="39" h="39" row="1" col="1"/>
+  <cut w="25" x="25" y="39" h="39" row="1" col="1"/>
+  <cut w="25" x="50" y="39" h="39" row="1" col="1"/>
+  <cut w="25" x="75" y="39" h="39" row="1" col="1"/>
+  <cut w="25" x="100" y="39" h="39" row="1" col="1"/>
+  <cut w="25" x="0" y="78" h="39" row="1" col="1"/>
+  <cut w="25" x="25" y="78" h="39" row="1" col="1"/>
+  <cut w="25" x="50" y="78" h="39" row="1" col="1"/>
+  <cut w="25" x="75" y="78" h="39" row="1" col="1"/>
+  <cut w="25" x="100" y="78" h="39" row="1" col="1"/>
+  <cut w="25" x="0" y="117" h="39" row="1" col="1"/>
+  <cut w="25" x="25" y="117" h="39" row="1" col="1"/>
+  <cut w="25" x="50" y="117" h="39" row="1" col="1"/>
+  <cut w="25" x="75" y="117" h="39" row="1" col="1"/>
+  <cut w="25" x="100" y="117" h="39" row="1" col="1"/>
+  <cut w="25" x="0" y="156" h="39" row="1" col="1"/>
+  <cut w="25" x="25" y="156" h="39" row="1" col="1"/>
+  <cut w="25" x="50" y="156" h="39" row="1" col="1"/>
+  <cut w="25" x="75" y="156" h="39" row="1" col="1"/>
+  <cut w="25" x="100" y="156" h="39" row="1" col="1"/>
+  <cut w="25" x="0" y="195" h="39" row="1" col="1"/>
+  <cut w="25" x="25" y="195" h="39" row="1" col="1"/>
+  <cut w="25" x="50" y="195" h="39" row="1" col="1"/>
+  <cut w="25" x="75" y="195" h="39" row="1" col="1"/>
+  <cut w="25" x="100" y="195" h="39" row="1" col="1"/>
+  <cut w="25" x="0" y="234" h="39" row="1" col="1"/>
+  <cut w="25" x="25" y="234" h="39" row="1" col="1"/>
+  <cut w="25" x="50" y="234" h="39" row="1" col="1"/>
+  <cut w="25" x="75" y="234" h="39" row="1" col="1"/>
+  <cut w="25" x="100" y="234" h="39" row="1" col="1"/>
+  <cut w="25" x="0" y="273" h="39" row="1" col="1"/>
+  <cut w="25" x="25" y="273" h="39" row="1" col="1"/>
+  <cut w="25" x="50" y="273" h="39" row="1" col="1"/>
+  <cut w="25" x="75" y="273" h="39" row="1" col="1"/>
+  <cut w="25" x="100" y="273" h="39" row="1" col="1"/>
+   <cut w="25" x="100" y="273" h="39" row="1" col="1"/>
+   <cut w="25" x="100" y="273" h="39" row="1" col="1"/>
+   <cut w="25" x="100" y="273" h="39" row="1" col="1"/>
+  <cut w="25" x="0" y="312" h="39" row="1" col="1"/>
+  <cut w="25" x="25" y="312" h="39" row="1" col="1"/>
+  <cut w="25" x="50" y="312" h="39" row="1" col="1"/>
+  <cut w="25" x="75" y="312" h="39" row="1" col="1"/>
+  <cut w="25" x="100" y="312" h="39" row="1" col="1"/>
+  <cut w="25" x="0" y="351" h="39" row="1" col="1"/>
+  <cut w="25" x="25" y="351" h="39" row="1" col="1"/>
+  <cut w="25" x="50" y="351" h="39" row="1" col="1"/>
+  <cut w="25" x="75" y="351" h="39" row="1" col="1"/>
+  <cut w="25" x="100" y="351" h="39" row="1" col="1"/>
+  <cut w="25" x="0" y="390" h="39" row="1" col="1"/>
+  <cut w="25" x="25" y="390" h="39" row="1" col="1"/>
+  <cut w="25" x="50" y="390" h="39" row="1" col="1"/>
+  <cut w="25" x="75" y="390" h="39" row="1" col="1"/>
+  <cut w="25" x="100" y="390" h="39" row="1" col="1"/>
+  <cut w="25" x="0" y="429" h="39" row="1" col="1"/>
+  <cut w="25" x="25" y="429" h="39" row="1" col="1"/>
+  <cut w="25" x="50" y="429" h="39" row="1" col="1"/>
+  <cut w="25" x="75" y="429" h="39" row="1" col="1"/>
+  <cut w="25" x="100" y="429" h="39" row="1" col="1"/>
+  <cut w="25" x="0" y="468" h="39" row="1" col="1"/>
+  <cut w="25" x="25" y="468" h="39" row="1" col="1"/>
+ </animation>
+</sprites>

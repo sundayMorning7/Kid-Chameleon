@@ -1,0 +1,19 @@
+<!DOCTYPE SpriteDecomposer>
+<sprites image="files\steel.png" transparentColor="">
+ <animation title="default" delay="100">
+  <cut w="16" x="2" y="2" h="16" row="1" col="1"/>
+ </animation>
+ <animation title="hit" delay="60">
+  <cut w="16" x="2" y="20" h="16" row="1" col="1"/>
+  <cut w="16" x="2" y="38" h="16" row="1" col="1"/>
+  <cut w="16" x="2" y="56" h="16" row="1" col="1"/>
+  <cut w="16" x="2" y="74" h="16" row="1" col="1"/>
+   <cut w="16" x="2" y="2" h="16" row="1" col="1"/>
+   <cut w="16" x="2" y="2" h="16" row="1" col="1"/>
+   <cut w="16" x="2" y="2" h="16" row="1" col="1"/>
+   <cut w="16" x="2" y="20" h="16" row="1" col="1"/>
+   <cut w="16" x="2" y="38" h="16" row="1" col="1"/>
+   <cut w="16" x="2" y="56" h="16" row="1" col="1"/>
+   <cut w="16" x="2" y="74" h="16" row="1" col="1"/>
+ </animation>
+</sprites>

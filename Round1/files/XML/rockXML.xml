@@ -1,0 +1,6 @@
+<!DOCTYPE SpriteDecomposer>
+<sprites image="rock.png" transparentColor="">
+ <animation title="default" delay="150">
+  <cut w="8" x="0" y="0" h="7" row="1" col="1"/>
+ </animation>
+</sprites>
